@@ -9,8 +9,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 .main{
-    margin-top: 10%;
-    margin-bottom: 9%;
+    margin-top: 12%;
+    margin-bottom: 10%;
     font-family:"Varela Round";
 }
 .main-text h2{
@@ -33,5 +33,8 @@ img{
         padding: 0px;
         color: black;
         line-height: 2.5;
+    }
+    .main-text h2{
+        font-size: 20px;
     }
 }
