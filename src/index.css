@@ -2,7 +2,7 @@
     color: black;
 }
 .ml-auto div {
-    padding-left: 20px;
+    padding: 17px;
     color: black;
 }
 .header{
@@ -27,4 +27,11 @@ img{
     margin-top: 10%;
     margin-bottom: 10%;
     width: 100%;
+}
+@media only screen and (max-width: 789px){
+    .ml-auto div {
+        padding: 0px;
+        color: black;
+        line-height: 2.5;
+    }
 }
