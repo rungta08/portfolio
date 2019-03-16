@@ -37,6 +37,12 @@ img{
     .main-text h2{
         text-align: center;
     }
+}
+@media only screen and (max-width: 1000px){
+    .name::before{
+        content: "\a";
+        white-space: pre;
+    }
     .desig::before{
         content: "\a";
         white-space: pre;
