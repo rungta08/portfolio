@@ -17,7 +17,7 @@
     margin-top: 20%;
     margin-bottom: 20%;
 }
-.main-text h2 span{
+.name{
     color: #2B9DFF;
 }
 img{
@@ -35,6 +35,10 @@ img{
         line-height: 2.5;
     }
     .main-text h2{
-        font-size: 20px;
+        text-align: center;
+    }
+    .desig::before{
+        content: "\a";
+        white-space: pre;
     }
 }
