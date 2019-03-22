@@ -1,32 +1,38 @@
 import React, {Component} from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
-
-function CardRender(){
-    return(
-        <div className='Card'>
-            <Card>
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                <CardBody>
-                    <CardTitle><h1>Card title</h1></CardTitle>
-                    <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                </CardBody>
-            </Card>
-        </div>
-    );
-}
 
 class About extends Component{
     render(){
         return(
             <Container className='about'>
+                <Row className='title'>
+                    <Col lg='12'>
+                        <h2>About Me.</h2>
+                    </Col>
+                </Row>
+                <Row className='content'>
+                    <Col xl='1' lg='2' md='2' sm='3' xs='3'>
+                        <div className='text'>
+                                I am
+                        </div>
+                   </Col>
+                   <Col xl='11' lg='11' md='11' sm='10' xs='10'>
+                        <div className='divider'>
+                        </div>
+                   </Col>
+                </Row>
                 <Row>
-                    <Col lg='6' md='6' xs='12' className='main-text'>
-                        <CardRender/>
+                    <Col className='text-block'>
+                        <span style={{color: 'green'}}>thinking,</span> reading,<br />
+                        collecting, <span style={{color: 'red'}}>designing,</span><br/>
+                        editing, writing, making, <br/>
+                        and <span style={{color: ' #2B9DFF'}}>playing around...</span>
                     </Col>
-                    <Col className='main-img' lg='6' md='6' xs='12'>
-
-                    </Col>
+                </Row>
+                <Row className='content'>
+                    <Col xl='12'>
+                        <div className='divider'></div>
+                   </Col>
                 </Row>
             </Container>
         );
