@@ -177,18 +177,41 @@
     }
 }
 
-@media only screen and (max-width: 321px)  and (min-width: 0px){
+@media only screen and (max-width: 321px)  and (min-width: 310px){
     .divider{
         margin-top: 20px;
     }
     .content .text{
-        font-size: 1.6rem;
+        font-size: 1.55rem;
     }
     .content .col-10{
         max-width: 71.666667%
     }
 }
 
+@media only screen and (max-width: 310px)  and (min-width: 304px){
+    .divider{
+        margin-top: 20px;
+    }
+    .content .text{
+        font-size: 1.5rem;
+    }
+    .content .col-10{
+        max-width: 71.666667%
+    }
+}
+
+@media only screen and (max-width: 310px)  and (min-width: 0px){
+    .divider{
+        margin-top: 16px;
+    }
+    .content .text{
+        font-size: 7vw;
+    }
+    .content .col-10{
+        max-width: 71.666667%
+    }
+}
 /* Main Component */
 .main{
     margin-top: 12%;
