@@ -75,22 +75,14 @@
 
 @media only screen and (max-width: 576px) and (min-width: 507px){
     .content .col-3{
-        max-width: 18%;
-    }
-    .content .col-10{
-        max-width: 81.666667%
-    }
-}
-
-@media only screen and (max-width: 507px)  and (min-width: 480px){
-    .content .col-3{
         max-width: 19%;
     }
     .content .col-10{
         max-width: 80.666667%
     }
 }
-@media only screen and (max-width: 479px) and (min-width: 455px){
+
+@media only screen and (max-width: 507px)  and (min-width: 480px){
     .content .col-3{
         max-width: 20%;
     }
@@ -98,8 +90,7 @@
         max-width: 79.666667%
     }
 }
-
-@media only screen and (max-width: 455px) and (min-width: 434px){
+@media only screen and (max-width: 479px) and (min-width: 455px){
     .content .col-3{
         max-width: 21%;
     }
@@ -108,12 +99,21 @@
     }
 }
 
-@media only screen and (max-width: 433px) and (min-width: 414px){
+@media only screen and (max-width: 455px) and (min-width: 434px){
     .content .col-3{
         max-width: 22%;
     }
     .content .col-10{
         max-width: 77.666667%
+    }
+}
+
+@media only screen and (max-width: 433px) and (min-width: 414px){
+    .content .col-3{
+        max-width: 23%;
+    }
+    .content .col-10{
+        max-width: 76.666667%
     }
 }
 
@@ -201,7 +201,7 @@
     }
 }
 
-@media only screen and (max-width: 310px)  and (min-width: 0px){
+@media only screen and (max-width: 310px)  and (min-width: 20px){
     .divider{
         margin-top: 16px;
     }
