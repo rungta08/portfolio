@@ -55,6 +55,13 @@
         max-width: 89.666667%;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .about{
+        margin-bottom: 50%;
+        margin-top: 30%;
+    }
+}
 @media only screen and (max-width: 992px) and (min-width: 768px){
     .content .col-md-2{
         max-width: 12.666667%;
