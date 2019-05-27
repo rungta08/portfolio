@@ -1,15 +1,14 @@
 /* Header Componnet */
-.mr-auto{
-    color: black;
-    font-weight: 1000;
-}
 .ml-auto div {
     padding: 17px;
-    color: black;
 }
 .header{
     font-family: 'Open Sans', sans-serif;
 }
+
+
+
+
 /* About */
 .about{
     margin-bottom: 9%;
